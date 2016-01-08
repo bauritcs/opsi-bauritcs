@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: x2goclient-bitcs
+name: X2GoClient
+description: 
+advice: 
+version: 4.0.5.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+x2goclient-bitcs (4.0.5.0´-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Sat, 09 Jan 2016 00:39:00 +0000
