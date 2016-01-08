@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: virtualclonedrive-bitcs
+name: Elaborate Bytes Virtual Clone Drive
+description: 
+advice: 
+version: 5.4.9.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+virtualclonedrive-bitcs (5.4.9.0-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Fri, 08 Jan 2016 22:04:00 +0000
