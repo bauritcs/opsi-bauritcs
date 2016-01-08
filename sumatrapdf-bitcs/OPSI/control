@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: sumatrapdf-bitcs
+name: SumatraPDF
+description: 
+advice: 
+version: 3.1.1
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+sumatrapdf-bitcs (3.1.1-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Sat, 09 Jan 2016 00:22:00 +0000
