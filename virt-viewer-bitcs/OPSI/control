@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: virt-viewer-bitcs
+name: Virt-Viewer
+description: 
+advice: 
+version: 3.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+virt-viewer-bitcs (3.0-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Fri, 08 Jan 2016 23:40:00 +0000
