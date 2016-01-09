@@ -1,0 +1,41 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: ganttproject-bitcs
+name: X2GoClient
+description: 
+advice: 
+version: 2.7.1
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[ProductDependency]
+action: setup
+requiredProduct: javavm
+requiredStatus: installed
+requirementType: before
+
+[ProductProperty]
+type: bool
+name: openmsproject
+description: Open MS Project files with GanttProject?
+default: False
+
+[Changelog]
+ganttproject-bitcs (2.7.1-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Sat, 09 Jan 2016 02:26:00 +0000
