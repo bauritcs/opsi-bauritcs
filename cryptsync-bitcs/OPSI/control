@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: cryptsync-bitcs
+name: CryptSync
+description: 
+advice: 
+version: 1.2.2
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+cryptsync-bitcs (1.2.2-1) testing; urgency=low
+
+  * Initial package
+
+ -- Stefan Baur <kontakt@baur-itcs.de>  Sat, 09 Jan 2016 02:49:00 +0000
